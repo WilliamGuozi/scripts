@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-LOGPATH="./ping.log"
+LOGPATH="./kas-ping.log"
 TARGET="kas.gpumine.org"
 
 while true; do
