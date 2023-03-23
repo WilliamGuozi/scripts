@@ -6,3 +6,6 @@ For monitor
 
 ## execute
 `sudo chmod +x kas-ping.sh && ./kas-ping.sh &`
+
+## stop 
+`sudo ps -ef |grep kas-ping |grep -v grep | awk '{print $2}'|xargs kill -9`
